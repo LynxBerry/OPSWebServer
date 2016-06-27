@@ -1,0 +1,71 @@
+#banner {
+    background: #E4E4E4;
+    height: 30px;
+    width: 1500px;
+    font-family: Courier, sans-serif;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#menu {
+    background: #E4E4E4;
+    height: 420px;
+    width: 160px;
+    float: left;
+    font-family: Courier, sans-serif;
+    font-size: 0.8em;
+}
+#content {
+    background: white; /* #A5DB94; */
+    height: auto; /*408px; */
+    width: auto; /* 544px; */
+    float: left;
+    font-family: Arial, Courier;
+    font-size: 0.8em;
+    left:20px;
+    top:20px;
+    margin-left:4px;
+    margin-top: 0px;
+    border: dotted black;
+    border-width: 1px;
+    padding: 5px;
+
+
+
+
+}
+
+.menuItem {
+    float:none;
+    background: white;
+    width: 155px;
+    border: dotted black;
+    border-width: 1px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    padding: 3px;
+
+}
+
+.menuItem:hover {
+    background: #4EC1FC;
+}
+
+#wrapper {
+    background: none;
+    float: none;
+    width: 2500px;
+    height: 430px;
+    margin-top: 5px;
+    position: relative;
+}
+#footnote {
+    background: white;
+    width: 720px;
+    font-family: Courier New;
+    font-size: 0.5em;
+    text-align: right;
+
+}

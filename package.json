@@ -1,7 +1,7 @@
 {
-    "name": "chatrooms",
+    "name": "opswebserver",
     "version": "0.0.2",
-    "description": "Minimalist multi-room chat server",
+    "description": "OPS Web Server",
     "dependencies": {
         "socket.io": "~0.9.6",
         "mime": "~1.2.7"

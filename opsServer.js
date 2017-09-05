@@ -28,10 +28,10 @@ function sendFile(response, filePath, fileContents) {
 }
 
 function serveStatic(response, cache, absPath) {
-    if (cache[absPath]) {
+    if (cache[absPath]) { //If cached, return the content directly
         sendFile(response, absPath, cache[absPath]);
     } else {
-        fs.exists(absPath, function(exists) {
+        fs.exists(absPath, function(exists) { //try to load requested content from local disk
             if (exists) {
                 fs.readFile(absPath, function(err, data) {
                     if (err) {
